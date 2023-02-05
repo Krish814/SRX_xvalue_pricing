@@ -1,0 +1,188 @@
+/* responsive css start */
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+@media (max-width: 1799px) {
+  .hero-content {
+    max-width: 550px;
+  }
+  .heading-title.big-heading-title {
+    font-size: 50px;
+  }
+  footer {
+    padding: 50px 12px 20px;
+  }
+  .terrydale-capital-col h3 {
+    font-size: 16px;
+  }
+  .terrydale-capital-details-wrap {
+    padding: 30px 20px;
+  }
+  .terrydale-capital-col h6 {
+    font-size: 12px;
+  }
+  .footer-grid {
+    grid-gap: 30px 20px;
+  }
+}
+@media (max-width: 1599px) {
+  :root {
+    --section-spacing: 100px;
+  }
+}
+@media (max-width: 1365px) {
+  :root {
+    --section-spacing: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .primary-btn {
+    min-width: 160px;
+  }
+  :root {
+    --section-big-spacing: 80px;
+    --section-mid-spacing: 50px;
+  }
+
+  .terrydale-capital-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sub-footer-section a {
+    font-size: 14px;
+  }
+  .footer-col h5 {
+    font-size: 18px;
+  }
+  .thank-you-box{
+    padding: 40px;
+  }
+}
+@media (max-width: 991px) {
+  :root {
+    --header-less-spacing: 70px;
+  }
+  .terrydale-capital-grid,
+  .header-menu-list-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .thank-you-list li:not(:last-child) {
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px){
+  .thank-you-list{
+    max-height: calc(100vh - 511px);
+    overflow-y: auto;
+  }
+}
+@media (min-width: 576px){
+  .get-size-more-text{
+    position: relative;
+    top: 2px;
+  }
+}
+@media (max-width: 767px) {
+  header,
+  header.fixed {
+    padding: 8px 0;
+  }
+  :root {
+    --section-big-spacing: 50px;
+    --section-mid-spacing: 40px;
+  }
+  .terrydale-capital-grid,
+  .header-menu-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .thank-you-box h4{
+    font-size: 16px;
+  }
+  .thank-you-box h2{
+    font-size: 18px;
+  }
+  .thank-you-box {
+    padding: 20px;
+  }
+  .thank-you-box .thank-you-img {
+    max-width: 190px;
+  }
+  .thank-you-list{
+    padding: 0;
+  }
+  .thank-you-list li a{
+    font-size: 14px;
+  }
+}
+@media (max-width: 575px) {
+  .primary-btn {
+    min-width: 110px;
+    font-size: 14px;
+    padding: 7px 15px;
+    min-height: 40px;
+  }
+  .header-logo {
+    max-width: 70px;
+  }
+  .toggle-header-bar-ico {
+    width: 20px;
+    height: 20px;
+  }
+  .small-heading-title0 {
+    font-size: 18px;
+  }
+  .terrydale-capital-details-wrap {
+    padding: 20px;
+  }
+  footer {
+    padding: 30px 12px 20px;
+  }
+  .footer-grid {
+    grid-gap: 15px 10px;
+  }
+  .footer-col h5,
+  .header-menu-list-col h5 {
+    font-size: 16px;
+  }
+  .footer-col a,
+  .header-menu-list-col a {
+    font-size: 14px;
+  }
+  dd {
+    margin-bottom: 0.3rem;
+  }
+  .header-menu-list-col li:not(:last-child) {
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 374px) {
+  .header-logo {
+    max-width: 50px;
+  }
+}
+/* responsive css end */
